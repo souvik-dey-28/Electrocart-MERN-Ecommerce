@@ -1,6 +1,7 @@
 # Electrocart Full Stack MERN App
 <hr>
-# Installation
+
+## Installation
 
 1. Clone the repository:
 
@@ -9,13 +10,13 @@
 
 2. Change into the project directory:
     ```bash
-    cd job-frontend
-    npm install -f
+    cd client
+    npm install i
     ```
   
     ```bash
-    cd job-backend
-    npm install -f
+    cd server
+    npm install i
     ```
 
 3. Create a .env file with necessary url's and variables.
@@ -26,44 +27,56 @@
    ```
 5. Run the backend server with:
    ```bash
-   node server.js
+   npm run dev
    ```
 
 <hr>
 
-#Tech Stack
+# Tech Stack
 
-##FRONTEND
-###React
+## FRONTEND
+
+### React
 To develop single-page, mobile, or server-rendered applications with frameworks like Next.js and Remix.
-###Tailwind CSS
+### Tailwind CSS
 To style web pages directly within HTML markup.
-###Vite
+### Vite
 Streamlines the development and deployment process for front-end applications.
-###Auto Pre Fixer
+### Auto Pre Fixer
 Can post-process CSS for dealing with vendor prefixes in the simplest possible way.
-#Css/HTML
+### Css/HTML
 Used to format the layout of a webpag
 
-##BACKEND
-###NodeJS
+## BACKEND
+### NodeJS
 Node.js is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.
-###Cloudinary
+### Cloudinary
 Image and Video APIs for Fast, Scalable Media Management.
-###Bcrypt JS
+### Bcrypt JS
 Bcrypt is a valuable tool to use to hash and store passwords
-###Cors
+### Cors
 Security feature implemented by web browsers that controls how websites can request resources from a different domain (origin) than the one that served the 
 website.
-###.env
+### .env
 A text file used to store environment-specific variables, often for configuration purposes in software development
-###Express JS
+### Express JS
 Express js is the framework of Node js, which is fully built-in Javascript.
-###JWT
+### JWT
 Used to securely transmit information between a client (like a frontend application) and a server (the backend).
 Database MongoDB
 A NoSQL document database known for its flexibility and scalability.
-###Nodemon
+### Nodemon
 Helps with the speedy development of Node. js applications. Automatically restarts your node application when it detects any changes.
-###Stripe/Paypal
+### Stripe/Paypal
 Payment Gateway.
+
+<!--
+    ```bash
+    cd client
+    npm install -f
+    ```
+  
+    ```bash
+    cd server
+    npm install -f
+    ```  -->
